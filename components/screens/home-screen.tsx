@@ -44,7 +44,7 @@ export function HomeScreen() {
         <div className="flex items-center justify-between px-4 py-4">
           <div className="flex items-center gap-3">
             <Image
-              src="/images/logo.png"
+              src="/logo.png"
               alt="生活応援デジタルクーポン"
               width={40}
               height={40}

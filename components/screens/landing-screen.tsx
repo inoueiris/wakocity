@@ -27,7 +27,7 @@ export function LandingScreen({ onNext }: LandingScreenProps) {
         <div className="max-w-md mx-auto">
           <div className="flex justify-center mb-3">
             <Image
-              src="/images/logo.png"
+              src="/logo.png"
               alt="生活応援デジタルクーポン"
               width={120}
               height={120}
