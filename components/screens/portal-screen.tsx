@@ -22,7 +22,7 @@ export function PortalScreen() {
           </button>
           <div className="flex items-center gap-3">
             <Image
-              src="/images/logo.png"
+              src="/logo.png"
               alt="生活応援デジタルクーポン"
               width={40}
               height={40}
