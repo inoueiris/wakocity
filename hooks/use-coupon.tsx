@@ -169,7 +169,7 @@ export function CouponProvider({ children }: { children: ReactNode }) {
         hour: "2-digit",
         minute: "2-digit",
       }),
-      store: amount === 8000 ? "クーポン発行" : "家族分追加",
+      store: amount === 3000 ? "クーポン発行" : "家族分追加",
       amount: amount,
       balance: newBalance,
       type: "charge",

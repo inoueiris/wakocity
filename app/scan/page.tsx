@@ -20,7 +20,7 @@ export default function ScanPage() {
     setTimeout(() => {
       setIsScanning(false)
       setScanComplete(true)
-      addCharge(8000)
+      addCharge(3000)
     }, 2000)
   }
 
@@ -104,7 +104,7 @@ export default function ScanPage() {
 
             <div className="space-y-2">
               <h3 className="text-2xl font-bold text-foreground">読み取り完了！</h3>
-              <p className="text-base text-muted-foreground">8,000円が追加されました</p>
+              <p className="text-base text-muted-foreground">3,000円が追加されました</p>
             </div>
 
             <div className="py-4 bg-primary/30 rounded-xl">
