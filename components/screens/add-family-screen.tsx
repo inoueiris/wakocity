@@ -53,7 +53,7 @@ export function AddFamilyScreen() {
                 <ol className="list-decimal list-inside space-y-1 text-foreground">
                   <li>クーポン券のQRコードを読み取り</li>
                   <li>生年月日を入力して本人確認</li>
-                  <li>1人につき8,000円分のクーポンが追加されます</li>
+                  <li>1人につき3,000円分のクーポンが追加されます</li>
                 </ol>
               </div>
               <div className="bg-primary/10 p-4 rounded-lg text-sm text-foreground">

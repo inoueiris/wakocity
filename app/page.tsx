@@ -76,8 +76,8 @@ export default function RiceCouponPlatform() {
           onNext={() => {
             setScreen("verification-loading")
             setTimeout(() => {
-              console.log("[v0] Charging 8000 yen for main user verification")
-              addCharge(8000)
+              console.log("[v0] Charging 3000 yen for main user verification")
+              addCharge(3000)
               setIsVerified(true)
               setScreen("home")
             }, 2000)
@@ -100,8 +100,8 @@ export default function RiceCouponPlatform() {
           onNext={() => {
             setScreen("verification-loading")
             setTimeout(() => {
-              console.log("[v0] Charging 8000 yen for family member verification")
-              addCharge(8000)
+              console.log("[v0] Charging 3000 yen for family member verification")
+              addCharge(3000)
               setScreen("home")
             }, 2000)
           }}
